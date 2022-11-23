@@ -1,0 +1,3 @@
+A=5
+If a%2==0:
+ Print(even
