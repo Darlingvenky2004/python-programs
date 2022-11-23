@@ -1,3 +1,5 @@
-A=5
-If a%2==0:
- Print(even
+a=int(input("enter any number"))
+if a%2==0:
+ Print('even')
+else:
+ Print('odd')
