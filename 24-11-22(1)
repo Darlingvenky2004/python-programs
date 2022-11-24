@@ -1,0 +1,16 @@
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+add=a+b
+sub=a-b
+mul=a*b
+div1=a/b
+div2=a//b
+mod=a%b
+power=a**b
+print('sum is',add)
+print('difference is',sub)
+print('mutiplication is',mul)
+print('division with float is',div1)
+print('division with floor is',div2)
+print('modula is',mod)
+print('power value is',power)
