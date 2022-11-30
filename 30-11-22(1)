@@ -1,0 +1,30 @@
+apl=100
+mng=100
+org=200
+pa=100
+bnn=100
+cphno=int(input("enter customer phone number:"))
+name=(input("enter name:"))
+address=(input("enter customer address:"))
+apl1=int(input("how many apples you want:"))
+mng1=int(input("how many mangos you want:"))
+org1=int(input("how many oranges you want:"))
+pa1=int(input("how many pineapples you want:"))
+bnn1=int(input("how many banannas you want:"))
+bill=(apl*apl1)+(mng*mng1)+(org*org1)+(pa*pa1)+(bnn*bnn1)
+if bill>=3000:
+    tax=bill*5/100
+elif bill>=2000:
+    tax=bill*7/100
+elif bill>=1000:
+    tax=bill*10/100
+elif bill>=500:
+    tax=bill*15/100
+else:
+    tax=100
+tax=tax+bill
+print("customer phone number:",cphno)
+print("customer name:",name)
+print("customer address:",address)
+print("tax:",tax)
+print("bill:",bill)
