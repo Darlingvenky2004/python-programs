@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+negative=[]
+positive=[]
+for i in l:
+    if i>=0:
+        negative.append(i)
+    else:
+        positive.append(i)
+on=negative+positive
+print(on)
